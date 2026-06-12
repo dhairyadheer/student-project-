@@ -6,8 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class StudyplannerApplication {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         SpringApplication.run(StudyplannerApplication.class, args);
+        System.out.println("something random");
+        System.out.println("something random 2");
     }
 
 }
