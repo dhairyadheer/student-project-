@@ -10,6 +10,7 @@ public class StudyplannerApplication {
     {
         SpringApplication.run(StudyplannerApplication.class, args);
         System.out.println("something random");
+        System.out.println("something random 2");
     }
 
 }
